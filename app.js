@@ -80,4 +80,77 @@ async function generatePublicURL() {
     }
 }
 
-generatePublicURL();
+//generatePublicURL();
+
+
+
+
+
+
+
+
+const { google } = require('googleapis')
+
+// const CLIENT_ID = '106991742350-nh9igci8cqc59dn7j63pknsctencpfcv.apps.googleusercontent.com'
+// const CLIENT_SECRET = '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'
+// const REDIRECT_URI = 'https://developers.google.com/oauthplayground'
+
+// const REFRESH_TOKEN = '1//04w9oumESL7WkCgYIARAAGAQSNwF-L9IrB2UmEPQcYhUkbl_UYL0TE5sUpvVGjMAqw-lNdQxK80aazullXW3D3w_7g4LJjE637Ec' 
+
+// const oauth2Client = new google.auth.OAuth2(
+//     CLIENT_ID, 
+//     CLIENT_SECRET,
+//     REDIRECT_URI
+// )
+
+// oauth2Client.setCredentials({refresh_token: REFRESH_TOKEN})
+
+// const drive = google.drive({
+//     version: 'v3',
+//     auth: oauth2Client
+// })
+
+
+// async function generatePublicUrl(fileId) {
+//     try {        
+//         const result = await drive.files.get({
+//             fileId: fileId,
+//             fields: 'webViewLink'
+//         })
+//         console.log(result.data)
+//     }   catch (error) {
+//         console.log(error)
+//     }
+// }
+
+// //req ke saath ek property ayegi to ye subname uss property ko simulate kar rha hai
+// let subname = 'appliedPhysics1'
+
+// //obj of all the subs and their IDs
+// const subs = {
+//     appliedPhysics1: '1ZlXeO_Y5xuNvGs28QkCY9-ei2TQUXAKz',
+//     appliedMaths1: '1bTDDFPpAigGkkg7kL5zrbPQ6veLqJpfL'
+// }
+
+// async function searchFile() {
+//     const files = [];
+
+//     try {
+//     const res = await drive.files.list({
+//         q: `mimeType='application/pdf' and '${subs[subname]}' in parents`,
+//         fields: 'nextPageToken, files(id, name)',
+//         spaces: 'drive',
+//     });
+//     Array.prototype.push.apply(files, res.files);
+//     res.data.files.forEach(function(file) {
+//         //generating url for each pdf file in the selected subject directory
+//         generatePublicUrl(file.id)
+//     });
+//     return res.data.files;
+//     } catch (err) {
+//         console.log('error')
+//     throw err;
+//     }
+// }
+
+// searchFile()
