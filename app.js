@@ -41,7 +41,11 @@ const drive = google.drive({
 //obj of all the subs and their IDs
 const subs = {
     appliedPhysics1: '1ZlXeO_Y5xuNvGs28QkCY9-ei2TQUXAKz',
-    appliedMaths1: '1bTDDFPpAigGkkg7kL5zrbPQ6veLqJpfL'
+    appliedMaths1: '1bTDDFPpAigGkkg7kL5zrbPQ6veLqJpfL',
+    appliedChemistry: '12HFIwUareqq4nXdAl5LU599NAbNE18xe',
+    communicationSkills: '1GYT9LnArvlcE7qgZ7ryv4WZjFvCOkatI',
+    electricalScience: '1OjkRHa6TwYN_ZZW1ZIzfd5cL_zOcm9jT',
+    manufacturingProcess: '1VVulayTgd5BMSW-mDJOUmDKJ81pGILj7'
 }
 
 async function searchFile(subname) {
