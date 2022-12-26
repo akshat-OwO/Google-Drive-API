@@ -46,7 +46,9 @@ const subs = {
     basicChemistry: '12HFIwUareqq4nXdAl5LU599NAbNE18xe',
     communicationSkills: '1GYT9LnArvlcE7qgZ7ryv4WZjFvCOkatI',
     electricalScience: '1OjkRHa6TwYN_ZZW1ZIzfd5cL_zOcm9jT',
-    manufacturingProcess: '1VVulayTgd5BMSW-mDJOUmDKJ81pGILj7'
+    manufacturingProcess: '1VVulayTgd5BMSW-mDJOUmDKJ81pGILj7',
+    humanValues: '1WXxU9q9DVQlMLyYNtU6_GkjfYn1Di3OK',
+    indianConstitution: '1T4f7fS3SCRncVm-AKJ2e522tdAxm9A20'
 }
 
 async function searchFile(subname) {
