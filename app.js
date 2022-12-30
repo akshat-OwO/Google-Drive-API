@@ -51,7 +51,7 @@ const subs = {
     indianConstitution: '1T4f7fS3SCRncVm-AKJ2e522tdAxm9A20'
 }
 
-async function searchFile(subname) {
+async function searchNotes(subname) {
     const files = [];
 
     try {
@@ -68,9 +68,9 @@ async function searchFile(subname) {
     }
 }
 
-app.get('/:subname', async (req, res) => {
+app.get('/notes/:subname', async (req, res) => {
     const { subname } = req.params;
-    const files = await searchFile(subname);
+    const files = await searchNotes(subname);
     
     res.json(files);
 });
