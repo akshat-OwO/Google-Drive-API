@@ -65,7 +65,7 @@ const books = {
     environmentalStudies: '1KRF_wYXiECSkMtkrhZIpMqcjh8MJXwzH'
 }
 
-const pvq = {
+const pyq = {
     appliedChemistry: '17i2P-gua3hy_MRqg845453zMRQuie-SC',
     appliedMaths1: '17cY_BeG1rP8X2pp7crKW7pD8GtRSB5ik',
     appliedPhysics1: '17_TbKPfpTmbD839HVt2mFguF1ZKfiIXI',
@@ -118,12 +118,12 @@ async function searchBooks(subname) {
     }
 }
 
-async function searchPvq(subname) {
+async function searchPyq(subname) {
     const files = [];
 
     try {
     const res = await drive.files.list({
-        q: `mimeType='application/pdf' and '${pvq[subname]}' in parents`,
+        q: `mimeType='application/pdf' and '${pyq[subname]}' in parents`,
         fields: 'nextPageToken, files(id, name, webViewLink)',
         spaces: 'drive',
     });
@@ -166,9 +166,9 @@ app.get('/books/:subname', async (req, res) => {
     res.json(files);
 });
 
-app.get('/pvq/:subname', async (req, res) => {
+app.get('/pyq/:subname', async (req, res) => {
     const { subname } = req.params;
-    const files = await searchPvq(subname);
+    const files = await searchPyq(subname);
 
     res.json(files);
 });
