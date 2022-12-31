@@ -48,7 +48,40 @@ const subs = {
     electricalScience: '1OjkRHa6TwYN_ZZW1ZIzfd5cL_zOcm9jT',
     manufacturingProcess: '1VVulayTgd5BMSW-mDJOUmDKJ81pGILj7',
     humanValues: '1WXxU9q9DVQlMLyYNtU6_GkjfYn1Di3OK',
-    indianConstitution: '1T4f7fS3SCRncVm-AKJ2e522tdAxm9A20'
+    indianConstitution: '1T4f7fS3SCRncVm-AKJ2e522tdAxm9A20',
+    environmentalStudies: '1SjaO00YJE2mWIFwvA1azTd4iydfSz4D8'
+}
+
+const books = {
+    appliedChemistry: '16fEuuTeeky-EcCV1aYkd-G4wQccZwUxo',
+    basicChemistry: '16fEuuTeeky-EcCV1aYkd-G4wQccZwUxo',
+    appliedMaths1: '16S5tVz3tBQCdevvn4tpPlEsT3CJrduPX',
+    appliedPhysics1: '16_tQCDi0Mgr11CDSirLo7_t7zui_fNMB',
+    communicationSkills: '16v8N_-IFM6W7Z6RMQ8VDUEj0SiiL5tAU',
+    electricalScience: '16h3WrSRYEcb_rYcOader2RrHJ7ozPuPx',
+    humanValues: '16pBEgcaFaVyWDqOfgHQegHlXvteBN7z8',
+    indianConstitution: '16pRBgekFiSj3533Cv27EK8lVOZ8FjQor',
+    manufacturingProcess: '16gwrmQ_AldHAIPm01KHCFD_NSzAaq_B4',
+    environmentalStudies: '1KRF_wYXiECSkMtkrhZIpMqcjh8MJXwzH'
+}
+
+const pvq = {
+    appliedChemistry: '17i2P-gua3hy_MRqg845453zMRQuie-SC',
+    appliedMaths1: '17cY_BeG1rP8X2pp7crKW7pD8GtRSB5ik',
+    appliedPhysics1: '17_TbKPfpTmbD839HVt2mFguF1ZKfiIXI',
+    electricalScience: '17iftZDBZX57ZmL-3XreShKFK6LTUOsjz',
+    environmentalStudies: '17jZZ5v2wsF9oZfn638I9LPFo53RfC6Ey',
+    humanValues: '17liqcvkiVbqv1gaH3N__hJBotej2BNUS',
+    indianConstitution: '17rGvrB5FxfXuEOs4jTh6RTPWZesm4_N9',
+    manufacturingProcess: '17lWsfTjIjJXsUnMgRDgPaiA8mdOZdb-r'
+}
+
+const practicalfile = {
+    appliedChemistry: '17AxN4YUEx-EH6fK3Vvuznu_T38nOM7_F',
+    appliedPhysics1: '16yIX_A12-nl-F4eMJ640hKXl9ytV_y26',
+    electricalScience: '17BOcXTpmuBJTYAk1eKJCcuHKcdqBTLRz',
+    environmentalStudies: '17OrTQM33YqWZ0jiBEN12B-GEvhyBmwAM',
+    programmingInC: '17XLAtZMc96YYMemE9xto-2UDwshUdYZX'
 }
 
 async function searchNotes(subname) {
@@ -68,10 +101,82 @@ async function searchNotes(subname) {
     }
 }
 
+async function searchBooks(subname) {
+    const files = [];
+
+    try {
+    const res = await drive.files.list({
+        q: `mimeType='application/pdf' and '${books[subname]}' in parents`,
+        fields: 'nextPageToken, files(id, name, webViewLink)',
+        spaces: 'drive',
+    });
+    Array.prototype.push.apply(files, res.files);
+    return res.data.files;
+    } catch (err) {
+        console.log('error')
+    throw err;
+    }
+}
+
+async function searchPvq(subname) {
+    const files = [];
+
+    try {
+    const res = await drive.files.list({
+        q: `mimeType='application/pdf' and '${pvq[subname]}' in parents`,
+        fields: 'nextPageToken, files(id, name, webViewLink)',
+        spaces: 'drive',
+    });
+    Array.prototype.push.apply(files, res.files);
+    return res.data.files;
+    } catch (err) {
+        console.log('error')
+    throw err;
+    }
+}
+
+async function searchPracticalFile(subname) {
+    const files = [];
+
+    try {
+    const res = await drive.files.list({
+        q: `mimeType='application/pdf' and '${practicalfile[subname]}' in parents`,
+        fields: 'nextPageToken, files(id, name, webViewLink)',
+        spaces: 'drive',
+    });
+    Array.prototype.push.apply(files, res.files);
+    return res.data.files;
+    } catch (err) {
+        console.log('error')
+    throw err;
+    }
+}
+
 app.get('/notes/:subname', async (req, res) => {
     const { subname } = req.params;
     const files = await searchNotes(subname);
     
+    res.json(files);
+});
+
+app.get('/books/:subname', async (req, res) => {
+    const { subname } = req.params;
+    const files = await searchBooks(subname);
+
+    res.json(files);
+});
+
+app.get('/pvq/:subname', async (req, res) => {
+    const { subname } = req.params;
+    const files = await searchPvq(subname);
+
+    res.json(files);
+});
+
+app.get('/practicalfile/:subname', async (req, res) => {
+    const { subname } = req.params;
+    const files = await searchPracticalFile(subname);
+
     res.json(files);
 });
 
