@@ -67,6 +67,7 @@ const books = {
 
 const pyq = {
     appliedChemistry: '17i2P-gua3hy_MRqg845453zMRQuie-SC',
+    basicChemistry: '17i2P-gua3hy_MRqg845453zMRQuie-SC',
     appliedMaths1: '17cY_BeG1rP8X2pp7crKW7pD8GtRSB5ik',
     appliedPhysics1: '17_TbKPfpTmbD839HVt2mFguF1ZKfiIXI',
     electricalScience: '17iftZDBZX57ZmL-3XreShKFK6LTUOsjz',
@@ -78,6 +79,7 @@ const pyq = {
 
 const practicalfile = {
     appliedChemistry: '17AxN4YUEx-EH6fK3Vvuznu_T38nOM7_F',
+    basicChemistry: '17AxN4YUEx-EH6fK3Vvuznu_T38nOM7_F',
     appliedPhysics1: '16yIX_A12-nl-F4eMJ640hKXl9ytV_y26',
     electricalScience: '17BOcXTpmuBJTYAk1eKJCcuHKcdqBTLRz',
     environmentalStudies: '17OrTQM33YqWZ0jiBEN12B-GEvhyBmwAM',
