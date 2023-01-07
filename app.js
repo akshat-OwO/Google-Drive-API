@@ -49,7 +49,10 @@ const subs = {
     manufacturingProcess: '1VVulayTgd5BMSW-mDJOUmDKJ81pGILj7',
     humanValues: '1WXxU9q9DVQlMLyYNtU6_GkjfYn1Di3OK',
     indianConstitution: '1T4f7fS3SCRncVm-AKJ2e522tdAxm9A20',
-    environmentalStudies: '1SjaO00YJE2mWIFwvA1azTd4iydfSz4D8'
+    environmentalStudies: '1SjaO00YJE2mWIFwvA1azTd4iydfSz4D8',
+    dataStructures: '1jQi-4QpMgtMybu5YwLZxxyxS7ALwNNYk',
+    computationalMethods: '1r3GA9A19p-1dEGX3WyZauea66WVzzAgc',
+    dlcd: '1Pw5EdtlNjKSvKO6Fv4KRoGgNVAPfl9r8'
 }
 
 const books = {
@@ -62,7 +65,18 @@ const books = {
     humanValues: '16pBEgcaFaVyWDqOfgHQegHlXvteBN7z8',
     indianConstitution: '16pRBgekFiSj3533Cv27EK8lVOZ8FjQor',
     manufacturingProcess: '16gwrmQ_AldHAIPm01KHCFD_NSzAaq_B4',
-    environmentalStudies: '1KRF_wYXiECSkMtkrhZIpMqcjh8MJXwzH'
+    environmentalStudies: '1KRF_wYXiECSkMtkrhZIpMqcjh8MJXwzH',
+    analogCommunication: '1W27VNg3kuxWIbbOeRsaTcz7nUzjg0xg0',
+    analogElectronics1: '1wdlITDOLJMSpKSJ-osAgNWMVFM8Yr4QX',
+    computationalMethods: '1IVN3InCkfL-GItwneaeGLoVl76MgmejT',
+    dataStructures: '1PuQqW9TstPGpmdIzW7lwgnCJ9s93KvsT',
+    discreteMaths: '1yMn5yuG5pT_PWn6cEGO9U2trN0N4OGm-',
+    dlcd: '1qoOgO6bUrtBdVO0omQa1bo7AfRfUcGGg',
+    electricMaterials: '1Kw2ntxP5kdS07jJJxlfTp3Fvpyv-M5il',
+    electricalMachines: '1gZIjijqdrbc179dHZ__ZBxy9hY3ZDPm0',
+    emft: '1h4-IFisUkZsg9LftMKOz6iI2tZOasPGd',
+    oops: '1Egt1I3c8f5z4RPHEe8Tz2_N6cfybPskI',
+    sns: '1M-NfHmwIkrE3Pg6DNLFZTIa1UwanaEqA'
 }
 
 const pyq = {
