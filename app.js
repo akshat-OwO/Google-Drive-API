@@ -52,7 +52,8 @@ const subs = {
     environmentalStudies: '1SjaO00YJE2mWIFwvA1azTd4iydfSz4D8',
     dataStructures: '1jQi-4QpMgtMybu5YwLZxxyxS7ALwNNYk',
     computationalMethods: '1r3GA9A19p-1dEGX3WyZauea66WVzzAgc',
-    dlcd: '1Pw5EdtlNjKSvKO6Fv4KRoGgNVAPfl9r8'
+    dlcd: '1Pw5EdtlNjKSvKO6Fv4KRoGgNVAPfl9r8',
+    oops: '18k6reivFFd-uldsHcTkgs6FyzYONoyOc'
 }
 
 const books = {
