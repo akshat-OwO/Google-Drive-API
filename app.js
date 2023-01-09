@@ -53,7 +53,8 @@ const subs = {
     dataStructures: '1jQi-4QpMgtMybu5YwLZxxyxS7ALwNNYk',
     computationalMethods: '1r3GA9A19p-1dEGX3WyZauea66WVzzAgc',
     dlcd: '1Pw5EdtlNjKSvKO6Fv4KRoGgNVAPfl9r8',
-    oops: '18k6reivFFd-uldsHcTkgs6FyzYONoyOc'
+    oops: '18k6reivFFd-uldsHcTkgs6FyzYONoyOc',
+    programmingInC: '14yXthKQtufm7_h281P5xieJ7BajO8Eg5'
 }
 
 const books = {
