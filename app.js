@@ -55,7 +55,9 @@ const subs = {
     dlcd: '1Pw5EdtlNjKSvKO6Fv4KRoGgNVAPfl9r8',
     oops: '18k6reivFFd-uldsHcTkgs6FyzYONoyOc',
     programmingInC: '14yXthKQtufm7_h281P5xieJ7BajO8Eg5',
-    discreteMaths: '15GyuJVVh3O9eGERujn1wNKxxGFIFUpsz'
+    discreteMaths: '15GyuJVVh3O9eGERujn1wNKxxGFIFUpsz',
+    analogCommunication: '1Rxq98-yTedL3qCVZ3kqutuHAsSY_ijTj',
+    analogElectronics1: '1F8tkieG2RuTWidpLdiR-mu60Lslb9TZe'
 }
 
 const books = {
