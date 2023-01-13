@@ -57,7 +57,11 @@ const subs = {
     programmingInC: '14yXthKQtufm7_h281P5xieJ7BajO8Eg5',
     discreteMaths: '15GyuJVVh3O9eGERujn1wNKxxGFIFUpsz',
     analogCommunication: '1Rxq98-yTedL3qCVZ3kqutuHAsSY_ijTj',
-    analogElectronics1: '1F8tkieG2RuTWidpLdiR-mu60Lslb9TZe'
+    analogElectronics1: '1F8tkieG2RuTWidpLdiR-mu60Lslb9TZe',
+    sns: '1-mN6P9Ech_6cbt4bFfDKbJvXkLiREmeW',
+    electricalMaterials: '1rcGntqjnKZQNNXI1sK4Bick6Am6g3klm',
+    electricalMachines: '1o1vSJw-4-6ki1xm4jMcPXJD-TdcD7G3D',
+    emft: '1HS3sJFE8XZPlHw1H49pi4AFpt8upC72L'
 }
 
 const books = {
