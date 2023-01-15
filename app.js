@@ -9,7 +9,9 @@ const { nextTick } = require('process');
 const app = express();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+    origin: 'https://syllabusx.live'
+}));
 
 app.use('/', (req, res, next) => {
     console.log(req.path, req.method);
