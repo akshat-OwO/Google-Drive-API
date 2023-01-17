@@ -101,7 +101,16 @@ const pyq = {
     environmentalStudies: '17jZZ5v2wsF9oZfn638I9LPFo53RfC6Ey',
     humanValues: '17liqcvkiVbqv1gaH3N__hJBotej2BNUS',
     indianConstitution: '17rGvrB5FxfXuEOs4jTh6RTPWZesm4_N9',
-    manufacturingProcess: '17lWsfTjIjJXsUnMgRDgPaiA8mdOZdb-r'
+    manufacturingProcess: '17lWsfTjIjJXsUnMgRDgPaiA8mdOZdb-r',
+    dataStructures: '1glrcs1FY-QiXsUVxTLgyd0jZgFru9k4F',
+    computationalMethods: '1iMKSKcFeisiytYco8oXSOsHz1DpL0wED',
+    sns: '1iQgxxMIDC_C1hyR-y3lS_dI_2UmZZqBv',
+    dlcd: '1iU9Tllzjy_3-pATaku4slkNTsgWDfIql',
+    analogCommunication: '1iaUr_vnXgPOZpbRIUPtmCGNByXp5LHUM',
+    analogElectronics1: '1ioLzP5jfA2KmStdGvwPC9aDrBoaAh2B7',
+    iks: '1iyq2HzcAU6GU2NeeM7gnOpGJ1Yxdv6JO',
+    discreteMaths: '1jGVagz2xSEIK0SuSkkfqAiZpS0al1My6',
+    oops: '1j_GkygjlSnZ_7pjOzmSVM-swO7r3mlmR'
 }
 
 const practicalfile = {
