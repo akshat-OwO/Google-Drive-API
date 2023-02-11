@@ -109,6 +109,7 @@ const pyq = {
     dlcd: '1iU9Tllzjy_3-pATaku4slkNTsgWDfIql',
     analogCommunication: '1iaUr_vnXgPOZpbRIUPtmCGNByXp5LHUM',
     analogElectronics1: '1ioLzP5jfA2KmStdGvwPC9aDrBoaAh2B7',
+    analogElectronics: '1dYN8uPDulFC246iJ4roG0g-9IwNzN_Je',
     iks: '1iyq2HzcAU6GU2NeeM7gnOpGJ1Yxdv6JO',
     discreteMaths: '1jGVagz2xSEIK0SuSkkfqAiZpS0al1My6',
     oops: '1j_GkygjlSnZ_7pjOzmSVM-swO7r3mlmR'
