@@ -90,7 +90,8 @@ const books = {
     emft: '1h4-IFisUkZsg9LftMKOz6iI2tZOasPGd',
     oops: '1Egt1I3c8f5z4RPHEe8Tz2_N6cfybPskI',
     sns: '1M-NfHmwIkrE3Pg6DNLFZTIa1UwanaEqA',
-    iks: '1ZHQKwzOEDNblLJqZCRGj-RMwH4PK6aGH'
+    iks: '1ZHQKwzOEDNblLJqZCRGj-RMwH4PK6aGH',
+    analogElectronics: '1VbsHJiOv58A1Y2hIfHg-CrElgBKK-4z7'
 }
 
 const pyq = {
