@@ -65,7 +65,8 @@ const subs = {
     electricalMachines: '1o1vSJw-4-6ki1xm4jMcPXJD-TdcD7G3D',
     emft: '1HS3sJFE8XZPlHw1H49pi4AFpt8upC72L',
     iks: '1_5fPQ6-DMzNOeEzmRzmFjVaF1l9JZztm',
-    cAndS: '1AgoWAtDSQTtEg45y9iEXYviufDvWDPTU'
+    cAndS: '1AgoWAtDSQTtEg45y9iEXYviufDvWDPTU',
+    ee: '1HS3sJFE8XZPlHw1H49pi4AFpt8upC72L'
 }
 
 const books = {
@@ -91,7 +92,8 @@ const books = {
     oops: '1Egt1I3c8f5z4RPHEe8Tz2_N6cfybPskI',
     sns: '1M-NfHmwIkrE3Pg6DNLFZTIa1UwanaEqA',
     iks: '1ZHQKwzOEDNblLJqZCRGj-RMwH4PK6aGH',
-    analogElectronics: '1VbsHJiOv58A1Y2hIfHg-CrElgBKK-4z7'
+    analogElectronics: '1VbsHJiOv58A1Y2hIfHg-CrElgBKK-4z7',
+    ee: '1h4-IFisUkZsg9LftMKOz6iI2tZOasPGd'
 }
 
 const pyq = {
